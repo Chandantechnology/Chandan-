@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator pro</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" id="themebeta" href="./assets/theme1.css" />
+  </head>
+
+  <body>
+    <div class="calculator">
+      <div class="themeBox">
+        <p>Calc</p>
+        <div class="themeSS">
+          <p>THEME</p>
+          <div class="themeAA">
+            <div class="themeCC">
+              <span>1</span><span>2</span><span>3</span>
+            </div>
+            <div class="themeBB" id="themeButton">
+              <span></span><span></span
+              ><span style="color: transparent">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <input type="text" class="display" id="display" disabled />
+      <div class="buttons">
+        <button class="btn" onclick="appendToDisplay('7')">7</button>
+        <button class="btn" onclick="appendToDisplay('8')">8</button>
+        <button class="btn" onclick="appendToDisplay('9')">9</button>
+        <button
+          class="btn del resDel"
+          onclick="deleteOne(document.getElementById('display')),deleteError()"
+        >
+          Del
+        </button>
+        <button class="btn" onclick="appendToDisplay('4')">4</button>
+        <button class="btn" onclick="appendToDisplay('5')">5</button>
+        <button class="btn" onclick="appendToDisplay('6')">6</button>
+        <button class="btn" onclick="appendToDisplay('+')">+</button>
+        <button class="btn" onclick="appendToDisplay('1')">1</button>
+        <button class="btn" onclick="appendToDisplay('2')">2</button>
+        <button class="btn" onclick="appendToDisplay('3')">3</button>
+        <button class="btn" onclick="appendToDisplay('-')">-</button>
+        <button class="btn" onclick="appendToDisplay('.')">.</button>
+        <button class="btn" onclick="appendToDisplay('0')">0</button>
+        <button class="btn" onclick="appendToDisplay('/')">/</button>
+        <button class="btn" onclick="appendToDisplay('*')">x</button>
+        <button class="btn reset resDel" onclick="clearDisplay()">reset</button>
+        <button class="btn equal" onclick="calculate()">=</button>
+      </div>
+    </div>
+    <div class="other-app">
+        <a href=https://github.com/Sangram-tech>Age Calculator</a>
+        <a href="">Tip Calculator</a>
+        <a href="./pages/death-calculator.html">Death Calculator</a>
+    </div>
+  </body>
+
+  <script src="./assets/script.js"></script>
+</html>
