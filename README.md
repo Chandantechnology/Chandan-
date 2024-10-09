@@ -4,6 +4,6 @@
 
 # python:-
 
-•write a program to demonstrate the usage if varous arithmetic operators.
+•write a program to find factorial of a numer.
 
 (https://github.com/Sangram-tech/Python--/blob/main/FACTORIAL.py)
