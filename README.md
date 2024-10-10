@@ -1,6 +1,6 @@
 # All programming:--
 
-# Content:---
+# Content
 
 # python:-
 
